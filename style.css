@@ -12,3 +12,12 @@
     margin: 10px;
     box-shadow: 15px 10px 5px black;
 }
+.msg{
+    display: flex;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+}

@@ -21,6 +21,7 @@
 
 const button = document.querySelector(".button")
 const kedar = document.querySelector(".kedar")
+const msg = document.querySelector(".msg")
 // const btn = document.getElementById("button")
 // const btnn = document.querySelector(".button")
 // const btnnn = document.getElementsByTagName("button")
@@ -34,9 +35,13 @@ button.addEventListener("click",()=>{
     if(kedar.style.backgroundColor == "yellow"){
         kedar.style.backgroundColor ="white"
         button.textContent = "TURN ON"
+        msg.style.backgroundColor = "red"
+        msg.textContent= "batti niboo"
     }else{
         kedar.style.backgroundColor ="yellow";
         button.textContent = "TURN OFF"
+         msg.style.backgroundColor = "green"
+        msg.textContent= "balyo"
     }
 })
 // this is second day project
